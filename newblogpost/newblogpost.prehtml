@@ -1,0 +1,32 @@
+define(`POSTTITLE', `My super cool blog post')dnl
+define(`POSTDATE', `1st August 2027')dnl
+
+define(`H2', `<h2>$1</h2>')dnl
+define(`H3', `<h3>$1</h3>')dnl
+define(`PAR', `<p>$1</p>')dnl
+define(`LINK', `<a href="$1">$2</a>')dnl
+define(`IMG', `<img src="$1"></img>')dnl
+
+
+include(`./header.txt')
+
+
+H2(Introduction)
+
+PAR(This in the introductory blurb.)
+
+
+H2(Another Subsection)
+
+PAR(Here's some more text.)
+
+PAR(We can also provide a LINK(https://www.google.de, link to our favourite search engine).)
+
+
+H2(Conclusions)
+
+PAR(In conclusion, we have some conclusions.)
+
+
+include(`./footer.txt')
+
