@@ -6,7 +6,7 @@ define(`H3', `<h3>$1</h3>')dnl
 define(`PAR', `<p>$1</p>')dnl
 define(`LINK', `<a href="$1">$2</a>')dnl
 define(`IMG', `<img width=500px src="$1"></img>')dnl
-define(`CODE', `<code>$1</code')dnl
+define(`CODE', `<code>$1</code>')dnl
 define(`BOX', `<pre class="box"><code>$1</code></pre>')dnl
 
 
