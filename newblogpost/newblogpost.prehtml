@@ -1,35 +1,30 @@
-define(`POSTTITLE', `My super cool blog post')dnl
-define(`POSTDATE', `1st August 2027')dnl
+define(`POSTTITLE', `Assert Statements are Removed in Optimised Python Code')dnl
+define(`POSTDATE', `16th October 2022')dnl
 
 define(`H2', `<h2>$1</h2>')dnl
 define(`H3', `<h3>$1</h3>')dnl
 define(`PAR', `<p>$1</p>')dnl
-define(`LINK', `<a href="$1">$2</a>')dnl
-define(`IMG', `<img width=500px src="$1"></img>')dnl
-define(`CODE', `<code>$1</code>')dnl
-define(`BOX', `<pre class="box"><code>$1</code></pre>')dnl
 
+define(`LINK', <a href="$1">$2</a>)dnl
+define(`CODE', <code>$1</code>)dnl
+
+define(`IMG', `<img width=500px src="$1"></img>')dnl
+define(`BOX', `<pre class="box"><code>$1</code></pre>')dnl
 
 
 include(`./header.txt')
 
+H2(`Introduction')
 
-H2(Introduction)
+PAR(`This is the introductory blurb.')
 
-PAR(This in the introductory blurb.)
+H2(`A Subsection')
 
+PAR(`Some more text.')
 
-H2(Another Subsection)
+H2(`Conclusions')
 
-PAR(Here's some more text.)
-
-PAR(We can also provide a LINK(https://www.google.de, link to our favourite search engine).)
-
-
-H2(Conclusions)
-
-PAR(In conclusion, we have some conclusions.)
-
+PAR(`In conclusion, we have some conclusions.')
 
 include(`./footer.txt')
 
